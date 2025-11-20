@@ -12,8 +12,8 @@ categories = ["asynchronous", "concurrency"]
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 rust-version = "1.81.0"
 
-[profile.bench]
-debug = true
+# [profile.bench]
+# debug = true
 
 [lib]
 bench = false
