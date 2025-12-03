@@ -65,7 +65,7 @@ pub struct StreamGroup<S> {
     wakers: WakerVec,
     states: PollVec,
     keys: BTreeSet<usize>,
-    key_removal_queue: SmallVec<[usize; 10]>,
+    key_removal_queue: SmallVec<usize, 10>,
     capacity: usize,
 }
 
